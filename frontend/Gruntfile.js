@@ -191,26 +191,26 @@ module.exports = function(grunt) {
                   expand: true,
                   dot: true,
                   cwd: 'dev/<%= target %>/templates',
-                  dest: '../backend/nodeapp/views/<%= target %>/',
+                  dest: '../backend/views/<%= target %>/',
                   ext: '.html',
                   src: ['**/*', '!**/*.partial.*', "!.*.sw*", '!*.handlebars']
                }, {
                   expand: true,
                   dot: true,
                   cwd: 'dev/<%= target %>/scripts',
-                  dest: '../backend/nodeapp/static/scripts/<%= target %>/',
+                  dest: '../backend/static/scripts/<%= target %>/',
                   src: ['**/*', '!**/*.partial.*', "!.*.sw*"]
                }, {
                   expand: true,
                   dot: true,
                   cwd: 'dev/<%= target %>/css',
-                  dest: '../backend/nodeapp/static/styles/<%= target %>/',
+                  dest: '../backend/static/styles/<%= target %>/',
                   src: ['**/*', '!**/*.partial.*', "!.*.sw*"]
                }, {
                   expand: true,
                   dot: true,
                   cwd: 'dev/<%= target %>/img',
-                  dest: '../backend/nodeapp/static/styles/<%= target %>/',
+                  dest: '../backend/static/styles/<%= target %>/',
                   src: ['**/*', '!**/*.partial.*', "!.*.sw*"]
                },
 
@@ -226,14 +226,14 @@ module.exports = function(grunt) {
                   expand: true,
                   dot: true,
                   cwd: 'dev/prostrap/css',
-                  dest: '../backend/nodeapp/static/styles/prostrap',
+                  dest: '../backend/static/styles/prostrap',
                   src: ['!**/*.less', '**/*.css']
                },
                {
                   expand: true,
                   dot: true,
                   cwd: 'dev/common/img/',
-                  dest: '../backend/nodeapp/static/styles/common',
+                  dest: '../backend/static/styles/common',
                   src: ['**/*']
                }
 
