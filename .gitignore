@@ -1,0 +1,8 @@
+*.pyc
+*.swo
+*.swp
+*.jpg
+*.jpeg
+*.gif
+*.png
+*node_modules
