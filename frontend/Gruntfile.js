@@ -1,6 +1,6 @@
 'use strict';
 module.exports = function(grunt) {
-   // load all grunt tasks
+   // load all grunt tasks using tc method
    require('matchdep').filterDev('grunt-*').forEach(grunt.loadNpmTasks);
    grunt.loadNpmTasks('grunt-bg-shell');
 
