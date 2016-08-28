@@ -1,3 +1,3 @@
-A ready to consume Node.js + Express.js + Underscore.js stack for a full fledged web application backend.
+Macvaar webapp and frontend app using Node.js + Express.js + Underscore.js stack.
 
-Dev->Deploy Grunt config for frontend code. 
+Dev->Deploy Grunt config for frontend code.
