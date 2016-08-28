@@ -1,20 +1,19 @@
 {
-  "name": "tfc-node-stack",
+  "name": "Macvaar webapp",
   "version": "0.0.1",
-  "description": "A simple Node.js express application using underscore.js for templating data",
+  "description": "Web app for Macvaar using Express and Node",
+  "author": "Sriram Raghavan <sriram241291@gmail.com> (https://github.com/SriramRags24/)",
+  "license": "MIT",
+  "repository": {
+    "type":"git",
+    "url":"https://github.com/SriramRags24/macvaar-app/tree/master/backend"
+  },
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./server.js",
     "debug": "nodemon ./server.js --debug"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://put_url_here"
-  },
-  "author": "Praveen",
-  "license": "UNLICENSED",
-  "homepage": "https://linkto#readme",
   "dependencies": {
     "body-parser": "^1.15.0",
     "cluster": "^0.7.7",
