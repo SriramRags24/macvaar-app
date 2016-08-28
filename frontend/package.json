@@ -1,5 +1,12 @@
 {
   "name": "Macvaar-webapp",
+  "description": "Web app for Macvaar using Express and Node",
+  "author": "Sriram Raghavan <sriram241291@gmail.com> (https://github.com/SriramRags24/)",
+  "license": "MIT",
+  "repository": {
+    "type":"git",
+    "url":"https://github.com/SriramRags24/macvaar-app/tree/master/frontend"
+  },
   "version": "0.0.1",
   "dependencies": {
   },
