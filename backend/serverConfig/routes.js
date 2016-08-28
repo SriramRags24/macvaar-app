@@ -18,7 +18,7 @@ module.exports = function(app) {
     app.use('/styles', express.static('static/styles'));
     app.use('/scripts', express.static('static/scripts'));
 
-    app.get('/home', check_login, page.home);
+    app.get('/home', page.home);
 
     app.get('*',function(req, res)
     {

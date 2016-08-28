@@ -6,4 +6,7 @@
 *.gif
 *.png
 *node_modules
-.DS_Store/
+.DS_Store
+*.log
+npm-deug.log*
+npm-webserver.log
