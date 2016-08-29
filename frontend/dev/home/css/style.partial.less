@@ -1,4 +1,74 @@
-.home
+@import "../../common/css/common.less";
+
+.landing_page
 {
-    padding: 10px;
+    .banner_wrapper
+    {
+        position: relative;
+        .banner_text
+        {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            text-align: center;
+            color: #171515;
+        }
+        .text_big
+        {
+            h2
+            {
+                font-size: 60px;
+                line-height: 60px;
+                margin: 0;
+            }
+        }
+        .text_small
+        {
+            font-size: 20px;
+            line-height: 30px;
+            padding-top: 20px;
+        }
+    }
+    .featured_products_wrapper
+    {
+        .heading_wrapper
+        {
+            h2
+            {
+                margin: 0;
+                padding-bottom: 40px;
+            }
+        }
+        .carousel-inner
+        {
+            .item
+            {
+                width: 100%;
+                float: left;
+                padding: 0 40px;;
+            }
+        }
+        .indiv_featured_project_details
+        {
+            padding-top: 25px;
+        }
+    }
+    @media (max-width: 786px)
+    {
+        .banner_wrapper
+        {
+            .text_big h2
+            {
+                font-size: 20px;
+                line-height: 20px;
+            }
+            .text_small
+            {
+                font-size: 15px;
+                line-height: 20px;
+            }
+        }
+    }
 }
+

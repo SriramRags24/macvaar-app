@@ -10,3 +10,6 @@
 *.log
 npm-deug.log*
 npm-webserver.log
+deploy/
+views/
+static/

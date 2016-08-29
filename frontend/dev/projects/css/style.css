@@ -1,3 +1,5 @@
+
+/*-- projects/css/style.partial.css (compiled) --*/
 .wd_100 {
   width: 100%;
   float: left;
@@ -51,10 +53,10 @@ a:focus {
   background-image: none;
   text-align: right;
 }
-.landing_page .banner_wrapper {
+.projects_page .banner_wrapper {
   position: relative;
 }
-.landing_page .banner_wrapper .banner_text {
+.projects_page .banner_wrapper .banner_text {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -62,35 +64,31 @@ a:focus {
   text-align: center;
   color: #171515;
 }
-.landing_page .banner_wrapper .text_big h2 {
+.projects_page .banner_wrapper .text_big h2 {
   font-size: 60px;
   line-height: 60px;
   margin: 0;
 }
-.landing_page .banner_wrapper .text_small {
+.projects_page .banner_wrapper .text_small {
   font-size: 20px;
   line-height: 30px;
   padding-top: 20px;
 }
-.landing_page .featured_products_wrapper .heading_wrapper h2 {
-  margin: 0;
+.projects_page .projects_listing_wrapper .indiv_project {
   padding-bottom: 40px;
 }
-.landing_page .featured_products_wrapper .carousel-inner .item {
-  width: 100%;
-  float: left;
-  padding: 0 40px;
-}
-.landing_page .featured_products_wrapper .indiv_featured_project_details {
-  padding-top: 25px;
-}
 @media (max-width: 786px) {
-  .landing_page .banner_wrapper .text_big h2 {
+  .projects_page .banner_wrapper .text_big h2 {
     font-size: 20px;
     line-height: 20px;
   }
-  .landing_page .banner_wrapper .text_small {
+  .projects_page .banner_wrapper .text_small {
     font-size: 15px;
     line-height: 20px;
   }
+}
+
+/*-- /partials/header (concatenated) --*/
+.top-section {
+  font-size: 20px;
 }

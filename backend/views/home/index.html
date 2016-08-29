@@ -5,30 +5,145 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title>Homepage</title>
+    <title> Macvaar - Home </title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Page specific CSS -->
     <link rel="stylesheet" href="/styles/home/style.css"/>
   </head>
-  <body>
-    <div class="top-section">
-    This is header. Testing header now
+  <body class="wd_100 landing_page">
+    <!-- Header -->
+    <div class="header_wrapper wd_100">
+      <!-- Header -->
+      <nav class="navbar navbar-default" role="navigation">
+        <!-- Container -->
+        <div class="container">
+          <!-- Hamburger -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#macvaar-navbar" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Logo</a>
+          </div>
+          <!-- Menu items -->
+          <div class="collapse navbar-collapse" id="macvaar-navbar">
+            <ul class="nav navbar-nav navbar-right">
+              <li>
+                <a href="/what-we-do">What we do</a>
+              </li>
+              <li>
+                <a href="/projects">Projects</a>
+              </li>
+              <li>
+                <a href="/services">Services</a>
+              </li>
+              <li>
+                <a href="/contact">Contact</a>
+              </li>
+              <li>
+                <a href="#">Playstore link</a>
+              </li>
+            </ul>
+          </div>
+          <!-- End menu items -->
+        </div>
+        <!-- End container -->
+      </nav>
+      <!-- End header -->
     </div>
-    <div>
-      <div class="home">
-          This is homepage. Hi
+    <!-- End header -->
+    <!-- Content -->
+    <div class="content_wrapper wd_100">
+      <!-- Banner wrapper -->
+      <div class="banner_wrapper wd_100">
+        <!-- Image -->
+        <img src="/user_media/banner_1.jpg" class="img-responsive" alt="Macvaar - Mobile apps for unmanned aerial vehicles" />
+        <!-- Banner text -->
+        <div class="banner_text">
+          <div class="text_big">
+            <h2>
+              Innovative apps
+            </h2>
+          </div>
+          <div class="text_small">
+            Appstem is a leading iOS and Android app design & development company. We help enterprises, brands and start-ups create innovative mobile solutions.
+          </div>
+        </div>
+        <!-- End Banner text -->
       </div>
+      <!-- End banner wrapper -->
+      <!-- Featured products -->
+      <div class="featured_products_wrapper common_padding wd_100">
+        <div class="container">
+          <div class="text-center heading_wrapper">
+            <h2>
+              Featured Projects
+            </h2>
+          </div>
+          <div id="featured_products" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner" role="listbox">
+              <div class="item active">
+                <div class="indiv_featured_project col-lg-4 col-sm-4 col-md-4 col-xs-12">
+                  <div class="indiv_featured_project_img">
+                    <img src="/styles/home/work_frequency.jpg" class="img-responsive" />
+                  </div>
+                  <div class="indiv_featured_project_details">
+                    <div class="name text-center">
+                      Project 1
+                    </div>
+                    <div class="description">
+                      Our drones have been mounted with our proprietary facial recognition software to capture and recognize users and objects in realtime from a 4K live streaming camera. The possibilities are endless!
+                    </div>
+                  </div>
+                </div>
+                <div class="indiv_featured_project col-lg-4 col-sm-4 col-md-4 col-xs-12">
+                  <div class="indiv_featured_project_img">
+                    <img src="/styles/home/work_frequency.jpg" class="img-responsive" />
+                  </div>
+                  <div class="indiv_featured_project_details">
+                    <div class="name text-center">
+                      Project 2
+                    </div>
+                    <div class="description">
+                      Our drones have been mounted with our proprietary facial recognition software to capture and recognize users and objects in realtime from a 4K live streaming camera. The possibilities are endless!
+                    </div>
+                  </div>
+                </div>
+                <div class="indiv_featured_project col-lg-4 col-sm-4 col-md-4 col-xs-12">
+                  <div class="indiv_featured_project_img">
+                    <img src="/styles/home/work_frequency.jpg" class="img-responsive" />
+                  </div>
+                  <div class="indiv_featured_project_details">
+                    <div class="name text-center">
+                      Project 3
+                    </div>
+                    <div class="description">
+                      Our drones have been mounted with our proprietary facial recognition software to capture and recognize users and objects in realtime from a 4K live streaming camera. The possibilities are endless!
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Controls -->
+              <a class="left carousel-control" href="#featured-products" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#featured-products" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Featured products -->
     </div>
+    <!-- End Content -->
+    <!-- Adding external scripts here -->
     <script src="https://code.jquery.com/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="/scripts/common/jquery.min.js"><\/script>')</script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" ></script>
-    <script>$.fn.modal || document.write('<script src="/scripts/common/bootstrap.min.js"><\/script>')</script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
-    <script>_ || document.write('<script src="/scripts/common/underscore-min.js"><\/script>')</script>
-    <script src="https://cdn.datatables.net/1.10.11/js/jquery.dataTables.min.js"></script>
-    <script src="/scripts/home/functionality.js"></script>
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.11/css/jquery.dataTables.min.css"/>
-    <div class="bottom-section">
-    This is footer. Testing footer now
-    </div>
-  </body>
   </body>
 </html>
